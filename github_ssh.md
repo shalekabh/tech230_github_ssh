@@ -30,7 +30,7 @@ Next you want to generate a key pair, these are the keys needed to securley ssh,
 
 ```ssh-keygen -t rsa -b 4096 -C "<email address>"
 
-When you are propmted where you want the file: that is when you name it:
+When you are propmted where you want the file, that is when you name it:
 
 ![Alt text](pics_for_mds/demokeys.png)
 
