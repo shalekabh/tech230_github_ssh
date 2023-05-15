@@ -46,6 +46,24 @@ And finally you should see this:
 
 ![Alt text](pics_for_mds/find%20keys.png)
 
+Next we connect to the agent using:
+
+```eval `ssh-agent -s` ```
+
+To connect to the agent and then we add the ketys and check the connection witht the following commands:
+
+```ssh-add ~/.ssh/Shaleka_ssh_keys```
+
+and
+
+```ssh -T git@github.com```
+
+![Alt text](pics_for_mds/add%20key.png)
+
+
+
+
+
 We finally want the contents of the public key ONLY and make sure it has no spaces either side of the key, so we can connect to git hub and the way to do that is use command:
 
 ``cat <key-name.pub>```:
