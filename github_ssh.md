@@ -77,5 +77,5 @@ Next go to you repositories section and create a new repo, mine is "tech230_gith
 
 git clone git@github.com:shalekabh/tech230_github_ssh.git (change the link to your own repo) and now you should have your repo locally to edit in and push back to git hub!
 
-Scongratulations!
+Congratulations!
 
