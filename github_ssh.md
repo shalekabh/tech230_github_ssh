@@ -28,7 +28,7 @@ Now ```cd .ssh``` into the .ssh directory.
 
 Next you want to generate a key pair, these are the keys needed to securley ssh, we have a private key and a public key. Keep the private safe at all times and dont show it to anyone. se the string command:
 
-```ssh-keygen -t rsa -b 4096 -C "<email address>"
+```ssh-keygen -t rsa -b 4096 -C "<email address>"```
 
 When you are propmted where you want the file, that is when you name it:
 
